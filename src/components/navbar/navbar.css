@@ -1,0 +1,34 @@
+.navbar{
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  width: 100vw;
+  
+  overflow: hidden;
+}
+.desktop_nav{
+    width: 97.9vw;
+    height: 50px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    backdrop-filter: blur(13px) saturate(100%);
+    -webkit-backdrop-filter: blur(13px) saturate(100%);
+    background-color: rgba(255, 255, 255, 0.1);
+    /* border: 1px solid rgba(255, 255, 255, 0.125); */
+}
+.right_nav{
+    display: flex;
+}
+.brand_logo{
+    zoom: 0.2;
+}
+.nav_menu_option{
+    padding-right: 15px;
+}
+.nav_menu_option_active{    
+    padding-right: 15px;
+    color: aqua;
+}
